@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mun Khatiwada</h1>
-<h3 align="center">A newbie MERN Stack Enthusiast</h3>
+<h3 align="center">Junior Full Stack Developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=icodemun44&label=Profile%20views&color=0e75b6&style=flat" alt="icodemun44" /> </p>
 

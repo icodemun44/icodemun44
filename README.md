@@ -1,1 +1,1 @@
-![terminal](./content.svg)
+

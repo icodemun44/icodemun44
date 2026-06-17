@@ -48,13 +48,13 @@
       
       <h2>Skills</h2>
       <div class="item">• Frontend: JS, TS, React, Next.js</div>
-      <div class="item">• Backend: Node.js, Express, MySQL, Supabase</div>
-      <div class="item">• AI/ML: Python</div>
+      <div class="item">• Backend: Node.js, Express, FastAPI</div>
+      <div class="item">• Database: MySQL, MongoDB, PostgreSQL</div>
 
       <h2>Hobbies</h2>
       <div class="item">• 🎸 Plays guitar &amp; into music</div>
       <div class="item">• ✍️ Writes poems</div>
-      <div class="item">• ☕ Funny, non-chalant, likes coffee</div>
+      <div class="item">• ☕ Funny, non-chalant, snd likes coffee</div>
       <div class="item">• 🕶️ Into fashion</div>
     </div>
   </foreignObject>

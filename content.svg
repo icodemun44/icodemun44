@@ -1,38 +1,69 @@
-<div align="left">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 550" width="760" height="550">
+  <defs>
+    <style>text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','Menlo',monospace; }</style>
+    <clipPath id="c1"><rect x="20" y="24" width="0" height="25"><animate attributeName="width" from="0" to="300" begin="0.3s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="20" y="70" width="0" height="22"><animate attributeName="width" from="0" to="600" begin="1.2s" dur="1.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="100" width="0" height="22"><animate attributeName="width" from="0" to="400" begin="2.4s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="60" y="130" width="0" height="22"><animate attributeName="width" from="0" to="600" begin="3.0s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="60" y="160" width="0" height="22"><animate attributeName="width" from="0" to="600" begin="3.6s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="60" y="190" width="0" height="22"><animate attributeName="width" from="0" to="600" begin="4.2s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c7"><rect x="20" y="230" width="0" height="22"><animate attributeName="width" from="0" to="400" begin="5.0s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c8"><rect x="40" y="260" width="0" height="22"><animate attributeName="width" from="0" to="400" begin="5.8s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c9"><rect x="40" y="290" width="0" height="22"><animate attributeName="width" from="0" to="400" begin="6.4s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c10"><rect x="40" y="320" width="0" height="22"><animate attributeName="width" from="0" to="400" begin="7.0s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c11"><rect x="40" y="350" width="0" height="22"><animate attributeName="width" from="0" to="400" begin="7.6s" dur="0.8s" fill="freeze"/></rect></clipPath>
+  </defs>
 
-  <!-- Name Header -->
-  <h1>Mun Khatiwada</h1>
+  <rect width="760" height="550" rx="10" fill="#EAE0D5" />
 
-  <!-- Staggered SVG Tree Reveal -->
-  <svg width="600" height="120" style="font-family: 'Fira Code', monospace;">
-    <text x="0" y="25" font-size="20" fill="white" class="reveal-1">🚀 Full-Stack Software Engineer</text>
-    <text x="0" y="55" font-size="20" fill="white" class="reveal-2">🏗 Systems Architect & Frontend Engineer</text>
-    <text x="0" y="85" font-size="16" fill="#38B2AC" class="reveal-3">✨ Plays guitar, writes poems, funny, non-chalant, likes coffee, into fashion</text>
-  </svg>
+  <text x="20" y="45" font-size="24" fill="#0A0908" font-weight="bold" clip-path="url(#c1)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.01s" fill="freeze"/>
+    Mun Khatiwada
+  </text>
 
-  <br>
+  <text x="20" y="88" font-size="18" fill="#22333B" clip-path="url(#c2)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.01s" fill="freeze"/>
+    Full-Stack Software Engineer
+  </text>
+  <g fill="#22333B" font-size="14">
+    <text x="40" y="118" clip-path="url(#c3)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.01s" fill="freeze"/>
+      ├── Skills
+    </text>
+    <text x="60" y="148" clip-path="url(#c4)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.01s" fill="freeze"/>
+      ├── Frontend: JS, TS, React, Next.js
+    </text>
+    <text x="60" y="178" clip-path="url(#c5)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="3.6s" dur="0.01s" fill="freeze"/>
+      ├── Backend: Node.js, Express, MySQL, Supabase
+    </text>
+    <text x="60" y="208" clip-path="url(#c6)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.01s" fill="freeze"/>
+      └── AI/ML: Python
+    </text>
+  </g>
 
-  <!-- Skills Stack -->
-  <p>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black">
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white">
-    <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white">
-    <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black">
-    <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white">
-    <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white">
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white">
-    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
-  </p>
-
-</div>
-
-<style>
-  @keyframes fadeOnce {
-    from { opacity: 0; transform: translateX(-20px); }
-    to { opacity: 1; transform: translateX(0); }
-  }
-  .reveal-1 { opacity: 0; animation: fadeOnce 1s ease-out forwards; }
-  .reveal-2 { opacity: 0; animation: fadeOnce 1s ease-out 0.5s forwards; }
-  .reveal-3 { opacity: 0; animation: fadeOnce 1s ease-out 1s forwards; }
-</style>
+  <text x="20" y="248" font-size="18" fill="#22333B" clip-path="url(#c7)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.01s" fill="freeze"/>
+    Hobbies
+  </text>
+  <g fill="#5E503F" font-size="14">
+    <text x="40" y="278" clip-path="url(#c8)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.01s" fill="freeze"/>
+      ├── Plays guitar &amp; into music
+    </text>
+    <text x="40" y="308" clip-path="url(#c9)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="6.4s" dur="0.01s" fill="freeze"/>
+      ├── Writes poems
+    </text>
+    <text x="40" y="338" clip-path="url(#c10)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="7.0s" dur="0.01s" fill="freeze"/>
+      ├── Funny, non-chalant, likes coffee
+    </text>
+    <text x="40" y="368" clip-path="url(#c11)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="7.6s" dur="0.01s" fill="freeze"/>
+      └── Into fashion
+    </text>
+  </g>
+</svg>

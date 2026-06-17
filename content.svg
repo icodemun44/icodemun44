@@ -1,0 +1,38 @@
+<div align="left">
+
+  <!-- Name Header -->
+  <h1>Mun Khatiwada</h1>
+
+  <!-- Staggered SVG Tree Reveal -->
+  <svg width="600" height="120" style="font-family: 'Fira Code', monospace;">
+    <text x="0" y="25" font-size="20" fill="white" class="reveal-1">🚀 Full-Stack Software Engineer</text>
+    <text x="0" y="55" font-size="20" fill="white" class="reveal-2">🏗 Systems Architect & Frontend Engineer</text>
+    <text x="0" y="85" font-size="16" fill="#38B2AC" class="reveal-3">✨ Plays guitar, writes poems, funny, non-chalant, likes coffee, into fashion</text>
+  </svg>
+
+  <br>
+
+  <!-- Skills Stack -->
+  <p>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white">
+    <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white">
+    <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black">
+    <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white">
+    <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white">
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white">
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
+  </p>
+
+</div>
+
+<style>
+  @keyframes fadeOnce {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  .reveal-1 { opacity: 0; animation: fadeOnce 1s ease-out forwards; }
+  .reveal-2 { opacity: 0; animation: fadeOnce 1s ease-out 0.5s forwards; }
+  .reveal-3 { opacity: 0; animation: fadeOnce 1s ease-out 1s forwards; }
+</style>
